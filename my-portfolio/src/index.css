@@ -1,0 +1,53 @@
+@import "tailwindcss";
+body {
+  margin: 0;
+  font-family: Arial;
+  background: #0f172a;
+  color: white;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background: #020617;
+  position: sticky;
+  top: 0;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.hero {
+  height: 80vh;
+  display: grid;
+  place-items: center;
+  text-align: center;
+}
+
+section {
+  padding: 60px;
+}
+
+.skills-box .skill {
+  padding: 10px;
+  background: #1e293b;
+  margin: 5px;
+  display: inline-block;
+  border-radius: 5px;
+}
+
+.project-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.project-card {
+  padding: 20px;
+  background: #1f2937;
+  border-radius: 10px;
+}
